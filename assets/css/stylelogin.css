@@ -1,0 +1,88 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            width: 25%;
+            height: 60%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            
+            padding: 0px;
+            margin-left: 20px;
+            width: 85%;
+        }
+
+        .logo span {
+            color: #002d66;
+        }
+
+        .logo .slash {
+            color: #9b9b9b;
+        }
+
+        .login-container h2 {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: #666;
+            font-family: 'Alexandria', sans-serif;
+            font-weight: 20;
+            
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .login-container input:focus {
+            border-color: #002d66;
+            outline: none;
+        }
+
+        .login-container button {
+            width: 60%;
+            padding: 10px;
+            background: linear-gradient(to right, #092134, #1B629A);
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-left:53px ;
+        }
+
+        .login-container button:hover {
+            background: linear-gradient(to left, #092134, #1B629A);
+        }
+        .reg{
+            text-align: center;
+            padding-top: 17px;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color: #1B629A;
+        }
