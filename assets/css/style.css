@@ -89,10 +89,10 @@ body{
 }
 .btn-l:hover{
     background-image: linear-gradient(to right, #535556, #b9bec2); /* Ubah warna latar belakang saat hover */
-    color: white;           Ubah warna teks saat hover
+    color: white;           
 }
 .btn-r:hover{
-    background-image: linear-gradient(to right, #092134, #1B629A); Ubah background menjadi putih saat hover */
+    background-image: linear-gradient(to right, #092134, #1B629A); 
     color: black;         
 }
 .halaman{
