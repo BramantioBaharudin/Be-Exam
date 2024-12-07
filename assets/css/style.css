@@ -1,20 +1,38 @@
+<<<<<<< HEAD
 html, body {
     height: 103%;
+=======
+html{
+  height: 100%;
+>>>>>>> e1e3931 (bab 8 fixed)
 }
 body{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     min-height: 100vh;
+=======
+>>>>>>> e1e3931 (bab 8 fixed)
     margin: 0;
     padding: 0;
     background-color: white;
 }
+<<<<<<< HEAD
 .navbar{
     width: 100%;
     flex-shrink: 0;
     background: #FFF;
     /* box-shadow: 0px 4px 20.1px -7px rgba(0, 0, 0, 0.25); */
     display: flex;
+=======
+        /* navbar */
+.navbar{
+    width: 100%;
+    flex-shrink: 0;
+    background: #e7e7e7;
+    display: flex;
+    position: relative;
+>>>>>>> e1e3931 (bab 8 fixed)
 }
 .gambar{
     margin: 10 0 10 60;
@@ -130,6 +148,7 @@ body{
     background-image: linear-gradient(to right, #092134, #1B629A); 
     color: black;         
 }
+<<<<<<< HEAD
 .halaman{
     width: 100%;
     height: 80%;
@@ -162,4 +181,210 @@ body{
     font-size: 20px;
     color: rgb(213, 213, 213);
     padding-bottom: 10px;
+=======
+    /* Jumbotron */
+.jumbotron {
+    display: flex;
+    background-color: #e7e7e7;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+  }
+
+  .jumbotron-text {
+	width: 30%;
+	font-weight: 500;
+  }
+  
+  .jumbotron-text p {
+	color: white;
+	margin: 20px 0;
+  }
+  
+  .jumbotron-text button {
+	padding: 10px 18px;
+	border: none;
+	border-radius: 10px;
+	background-color: #1B629A;;
+	color: white;
+	cursor: pointer;
+  }
+  .btn_getStarted{
+    color: white;
+  }
+  
+  /* style card-categories */
+  .cards-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .cards-categories h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .card-categories {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+    
+    .card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+    transform: scale(1.05);
+    }
+    
+    .card .card-image {
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+    }
+    
+    .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    }
+    
+    .card-content {
+    padding: 20px;
+    }
+    
+    .card h5 {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    }
+    
+    .card p.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    }
+    
+    .card p.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1B629A;
+    margin-bottom: 15px;
+    }
+    
+    .card .btn_belanja {
+    background-color: #1B629A;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+    
+    .card .btn_belanja:hover {
+    background-color: #1B629A;
+    }
+  
+  .modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.modal-dialog {
+    width: 80%; 
+    max-width: 500px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+	border-bottom: none;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.modal-title {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+.btn-close {
+	font-size: 1.5rem;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #000;
+}
+
+.modal-body {
+	padding: 20px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group  .labelmodal {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-group .inputdata,
+.form-group .inputalamat {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.modal-footer {
+	border-top: none;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn-secondary,
+.btn-yellow {
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	
+}
+
+.btn-secondary {
+	background-color: #888;
+	margin-right: 10px;
+}
+
+.btn-yellow {
+	background-color: #1B629A;
+>>>>>>> e1e3931 (bab 8 fixed)
 }
